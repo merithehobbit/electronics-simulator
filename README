@@ -1,0 +1,58 @@
+# Electronics Circuit Simulator
+
+A browser-based circuit simulator where users can build and test basic electrical circuits using resistors, LEDs, and wires. The app lets you place components, connect them, and instantly see how changes in the circuit affect voltage, current, and LED behavior.
+
+## Live Demo
+
+Client: https://ominous-fiesta-69j4xqrq49r72r456-5173.app.github.dev/
+
+## Features
+
+- Place components on a grid-based workspace
+- Drag and move components freely
+- Connect components using wires
+- Resistors with adjustable resistance values
+- LEDs that react to circuit conditions
+- Real-time voltage and current calculation
+- Series and parallel circuit behavior
+- Snap-to-grid positioning
+- Delete mode for removing components and wires
+- Animated current flow visualization
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Node.js (Express backend for development)
+- CSS / Inline styling
+
+## How to Run Locally
+
+### Install dependencies
+```bash
+npm install
+Start the client
+cd project/client
+npm run dev
+Open in browser
+http://localhost:5173
+Project Structure
+project/
+  client/
+    src/
+      App.tsx
+      pages/
+        Lab.tsx
+  server/
+    index.ts
+How It Works
+Components are placed on a grid-based canvas
+Users connect components using draggable wires
+Circuit behavior updates in real time
+Resistance affects current flow using basic circuit rules
+LEDs turn on or off based on voltage conditions
+Users can switch between wire mode and delete mode
+
+
+           
